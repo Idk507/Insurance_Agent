@@ -1,0 +1,45 @@
+# Core AI and Agent Framework
+agno
+
+# OpenAI and HTTP client
+openai
+httpx
+httpcore
+
+# LangChain components
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+
+# Azure OpenAI support
+azure-ai-generative
+azure-identity
+
+# Vector Database
+chromadb
+
+# PDF processing with OCR
+PyMuPDF
+pdfplumber
+pytesseract
+pdf2image
+Pillow
+
+# Language detection
+langdetect
+
+# Streamlit for web interface
+streamlit
+
+# Data validation and utilities
+pydantic
+python-dateutil
+
+# Development and testing
+pytest
+python-dotenv
+
+# Additional utilities
+requests
+typing-extensions
