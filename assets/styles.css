@@ -1,0 +1,341 @@
+/* Custom CSS Styles for Insurance Form Processor - Streamlit Compatible */
+
+/* Main app styling */
+.stApp {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+/* Main container */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* Custom step container class */
+div[data-testid="stMarkdownContainer"] .step-container {
+    border: 2px solid #e1e5e9;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Step header styling */
+div[data-testid="stMarkdownContainer"] .step-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1f77b4;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e1e5e9;
+    padding-bottom: 8px;
+}
+
+/* Success message styling */
+div[data-testid="stSuccess"] {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border-left: 4px solid #28a745;
+    border-radius: 8px;
+    color: #155724;
+}
+
+/* Error message styling */
+div[data-testid="stError"] {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    border-left: 4px solid #dc3545;
+    border-radius: 8px;
+    color: #721c24;
+}
+
+/* Warning message styling */
+div[data-testid="stWarning"] {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border-left: 4px solid #ffc107;
+    border-radius: 8px;
+    color: #856404;
+}
+
+/* Info message styling */
+div[data-testid="stInfo"] {
+    background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+    border-left: 4px solid #17a2b8;
+    border-radius: 8px;
+    color: #0c5460;
+}
+
+/* Button styling */
+div[data-testid="stButton"] > button {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,123,255,0.3);
+}
+
+div[data-testid="stButton"] > button:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+    box-shadow: 0 4px 8px rgba(0,123,255,0.4);
+    transform: translateY(-1px);
+}
+
+/* Primary button specific styling */
+div[data-testid="stButton"] > button[kind="primary"] {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+/* Secondary button styling */
+div[data-testid="stButton"] > button[kind="secondary"] {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    box-shadow: 0 2px 4px rgba(108,117,125,0.3);
+}
+
+div[data-testid="stButton"] > button[kind="secondary"]:hover {
+    background: linear-gradient(135deg, #495057 0%, #343a40 100%);
+    box-shadow: 0 4px 8px rgba(108,117,125,0.4);
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 2rem;
+}
+
+/* Progress bar styling */
+div[data-testid="stProgress"] > div > div > div {
+    background: linear-gradient(90deg, #28a745 0%, #20c997 100%);
+    border-radius: 4px;
+}
+
+/* Metric container styling */
+div[data-testid="metric-container"] {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0.5rem 0;
+    border: 1px solid #e9ecef;
+}
+
+/* File uploader styling */
+div[data-testid="stFileUploader"] {
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stFileUploader"]:hover {
+    border-color: #0056b3;
+    background: linear-gradient(135deg, #e6f3ff 0%, #f8f9ff 100%);
+}
+
+/* Expander styling */
+div[data-testid="stExpander"] {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+div[data-testid="stExpanderToggleIcon"] {
+    color: #007bff;
+}
+
+details[data-testid="stExpander"] summary {
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 12px 16px;
+}
+
+/* Text area styling */
+div[data-testid="stTextArea"] textarea {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-family: 'Courier New', monospace;
+    background-color: #f8f9fa;
+}
+
+/* JSON display styling */
+div[data-testid="stJson"] {
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    padding: 1rem;
+}
+
+/* Column styling */
+div[data-testid="column"] {
+    padding: 0 0.5rem;
+}
+
+/* Header styling */
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #5a6c7d;
+    font-weight: 500;
+}
+
+/* Spinner styling */
+div[data-testid="stSpinner"] > div {
+    border-top-color: #007bff !important;
+}
+
+/* Download button styling */
+div[data-testid="stDownloadButton"] > button {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+}
+
+div[data-testid="stDownloadButton"] > button:hover {
+    background: linear-gradient(135deg, #20c997 0%, #17a2b8 100%);
+}
+
+/* Tabs styling */
+div[data-testid="stTabs"] {
+    background: transparent;
+}
+
+button[data-baseweb="tab"] {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #dee2e6;
+    color: #495057;
+    font-weight: 500;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    border-color: #007bff;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #007bff 0%, #0056b3 100%);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0056b3 0%, #004085 100%);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    div[data-testid="stMarkdownContainer"] .step-container {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    div[data-testid="stMarkdownContainer"] .step-header {
+        font-size: 1.1rem;
+    }
+
+    div[data-testid="column"] {
+        padding: 0 0.25rem;
+    }
+}
+
+/* Animation for smooth transitions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+div[data-testid="stMarkdownContainer"] .step-container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Status indicator classes */
+.status-completed {
+    color: #28a745 !important;
+    font-weight: 600;
+}
+
+.status-processing {
+    color: #007bff !important;
+    font-weight: 600;
+}
+
+.status-error {
+    color: #dc3545 !important;
+    font-weight: 600;
+}
+
+.status-warning {
+    color: #ffc107 !important;
+    font-weight: 600;
+}
+
+/* Hide Streamlit branding */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Custom footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+    font-size: 0.875rem;
+    z-index: 999;
+}
